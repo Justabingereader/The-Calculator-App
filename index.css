@@ -1,0 +1,227 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-image: url("./mathpic.avif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Optional: Keeps background fixed when scrolling */
+  }
+  /* @media (max-width: 100000px) { */
+  #content-container {
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+  }
+ #content-header {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri';
+    background-color: teal;
+    width: 372px;
+    height: 60px;
+    margin-top: 0;
+    margin-left: -2px;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    line-height: 10px;
+    letter-spacing: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(27, 22, 22);
+}
+ #content-space {
+    width: 320px;
+    background-color: rgb(241, 223, 223);
+    height: 70px;
+    margin: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+ }
+ 
+ /* #display-content {
+    line-height: 0;
+    font-size: 20px;
+    white-space: nowrap;
+ }
+ #compute-content {
+    display: none;
+ } */
+ #content-body {
+    padding: 10px;
+    margin: 10px;
+ }
+  #reset {
+    padding: auto;
+    color: black;
+    border-radius: 10px;
+    border-color: #508CA4;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    width: 80px;
+    height: 25px;
+ }
+ #plus {
+   padding: auto;
+   margin-left: 5px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 50px;
+   height: 25px;
+}
+#minus {
+   padding: auto;
+   margin-left: 5px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 50px;
+   height: 25px;
+}
+#times {
+   padding: auto;
+   margin-left: 5px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 50px;
+   height: 25px;
+}
+#divide {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 50px;
+   height: 25px;
+}
+#one {
+   padding: auto;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#two {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#three {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#four {
+   padding: auto;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#five {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#six {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#seven {
+   padding: auto;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#eight {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#nine {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#dot {
+   padding: auto;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#zero {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+#equals {
+   padding: auto;
+   margin-left: 10px;
+   color: black;
+   border-radius: 10px;
+   border-color: #508CA4;
+   box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+   width: 100px;
+   height: 25px;
+}
+.buttons:hover {
+   background-color: darkgreen;
+ }
